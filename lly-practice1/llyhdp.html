@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>幻灯片</title>
+    <style> 
+        *{
+        padding: 0;
+        margin: 0;
+        }
+        @keyframes mymove 
+        {
+                    0% {
+                        background: url('../imgs/法国.jpg') no-repeat;
+                        background-size: 100%;
+                        background-color:#cccccc;
+                    }
+    
+                    25% {
+                        background: url('../imgs/yi.jpg') no-repeat;
+                        background-size: 100%;
+                        background-color:#cccccc;
+                    }
+    
+                    50% {
+                        background: url('../imgs/si.jpg') no-repeat;
+                        background-size: 100%;
+                        background-color:#cccccc;
+                    }
+    
+                    75% {
+                        background: url('../imgs/san.jpg') no-repeat;
+                        background-size: 100%;
+                        background-color:#cccccc;
+                    }
+    
+                    100% {
+                        background:url('../imgs/er.jpg');
+                        background-size: 100%;
+                        background-color:#cccccc;
+                    }
+                }
+            .a{
+            width: 600px;
+            height: 400px;
+            margin: 20px auto;
+            background-size: over;
+            background-position: center;
+            animation-duration: 10s;
+            animation-iteration-count: infinite; 
+         }               
+        </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div id="div1"></div>
+</body>
+</html>
